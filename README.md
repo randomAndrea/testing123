@@ -20,8 +20,9 @@ Los enteros, **`intmonchan`**, se representan con una secuencia de dígitos del 
 Los floats, **`floatzel`**, empiezan con una secuencia de dígitos, luego seguida por un punto y termina con otra secuencia de dígitos. 
 Por ejemplo, `0.28`, `28.0` son números válidos pero `.28` y `28.` no.
 
-Las cadenas de caracteres, **`onix`**, son una secuencia de caracteres ASCII entre comillas dobles. 
-Por ejemplo: "Emerald FTW", "pokemon", "Hola!"
+Las cadenas de caracteres, **`onix`**, son una secuencia de caracteres ASCII entre comillas dobles. Por ejemplo:
+
+     "Emerald FTW", "pokemon", "Hola!"
 
 Un comentario simple (de una linea) son representados de la siguiente manera:
 
@@ -33,27 +34,43 @@ Un comentario de varias lineas se representa así:
        lineas en el lenguaje Emerald.
        Es muy chévere. */
 
+## Arreglos
 
+Los arreglos son declarados de la siguiente manera:
 
+    <tipo> <identificador>[<número>..<número>]
 
-## Tipos Escalares
+Por ejemplo:
 
-* boolbasaur - bool
-* charizard  - char
-* intmonchan - int
-* floatzel   - float
-
-## Tipos Colección
-
-* onix - string
-* tipo arreglo[N..M]
+    intmonchan arreglo[1..10]
+    floatzel otroArreglo[0..100]
+    charizard arreglo3[9..19]
 
 ## Tipos Estructurados
 
-* registeer - register
-* **ejemplo**: registeer REG { int campo1 := 0; int campo2; }
-* **ejemplo acceder al campo**: REG.campo1  
-* unown - union
+Un registro, `registeer`, se declara de la siguiente manera:
+
+    registeer <identificador> {
+        <tipo1> <identificador1> ;
+        <tipo2> <identificador2> := <inicialización> ;
+        ...
+        <tipoN> <identificadorN> ;
+    }
+    
+Uniones, `unown`, se representan de la misma manera:
+
+    unown <identificador> {
+        <tipo1> <identificador1> ;
+        <tipo2> <identificador2> := <inicialización> ;
+        ...
+        <tipoN> <identificadorN> ;
+    }
+
+Para acceder a un atributo de un registro o unión, se utiliza el operador `.`.
+
+    registro.campo
+    
+    
 
 ## Vacío
 
