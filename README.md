@@ -7,22 +7,24 @@ Emerald
 A continuación se presentan las palabras reservadas del lenguaje. Éstas no pueden ser utilizadas como identificadores ni redefinidas.
 
 ------------------------------------------------------------------------
+
 boolbasaur    charizard    intmonchan    floatzel    voidporeon   onix    
 registeer     unown        true          false       const        var
 for           from         to            by          while        return
 if            elsif        else          read        print        BOOM
-tag           continue     switch        case        default       
+tag           continue     switch        case        default
+
 ------------------------------------------------------------------------
 
 Un identificador es una secuencia de caracteres alfanúmericos y el símbolo `_`, que empieza con una letra. Emerald es sensible a mayúsculas, 
 por lo tanto los identificadores `Ejem`, `ejem` y `eJEm` son diferentes.
 
-Los enteros, `intmonchan`, se representan con una secuencia de dígitos del `0` al `9`.
+Los enteros, **`intmonchan`**, se representan con una secuencia de dígitos del `0` al `9`.
 
-Los floats, `floatzel`, empiezan con una secuencia de dígitos, luego seguida por un punto y termina con otra secuencia de dígitos. 
+Los floats, **`floatzel`**, empiezan con una secuencia de dígitos, luego seguida por un punto y termina con otra secuencia de dígitos. 
 Por ejemplo, `0.28`, `28.0` son números válidos pero `.28` y `28.` no.
 
-Las cadenas de caracteres, `onix`, son una secuencia de caracteres ASCII entre comillas dobles. 
+Las cadenas de caracteres, **`onix`**, son una secuencia de caracteres ASCII entre comillas dobles. 
 Por ejemplo: "Emerald FTW", "pokemon", "Hola!"
 
 Un comentario simple (de una linea) son representados de la siguiente manera:
