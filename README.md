@@ -8,11 +8,11 @@ A continuación se presentan las palabras reservadas del lenguaje. Éstas no pue
 
 ------------------------------------------------------------------------
 
-boolbasaur    charizard    intmonchan    floatzel    voidporeon   onix    
-registeer     unown        true          false       const        var
-for           from         to            by          while        return
-if            elsif        else          read        print        BOOM
-tag           continue     switch        case        default
+    boolbasaur    charizard    intmonchan    floatzel    voidporeon   onix    
+    registeer     unown        true          false       const        var
+    for           from         to            by          while        return
+    if            elsif        else          read        print        BOOM
+    tag           continue     switch        case        default
 
 ------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ Las cadenas de caracteres, **`onix`**, son una secuencia de caracteres ASCII ent
 Por ejemplo: "Emerald FTW", "pokemon", "Hola!"
 
 Un comentario simple (de una linea) son representados de la siguiente manera:
-   # Hola, éste es un comentario de una línea.
+    # Hola, éste es un comentario de una línea.
 
 Un comentario de varias lineas se representa así: 
       /* Éste es comentario de varias
