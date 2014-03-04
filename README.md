@@ -6,12 +6,13 @@ Emerald
 
 A continuación se presentan las palabras reservadas del lenguaje. Éstas no pueden ser utilizadas como identificadores ni redefinidas.
 
+---
 boolbasaur    charizard    intmonchan    floatzel    voidporeon   onix    
 registeer     unown        true          false       const        var
 for           from         to            by          while        return
 if            elsif        else          read        print        BOOM
 tag           continue     switch        case        default       
-
+---
 Un identificador es una secuencia de caracteres alfanúmericos y el símbolo `_`, que empieza con una letra. Emerald es sensible a mayúsculas, 
 por lo tanto los identificadores `Ejem`, `ejem` y `eJEm` son diferentes.
 
